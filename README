@@ -14,6 +14,6 @@ Edit these values:
 	$timezone="Asia/Kathmandu";
 	/* Stop Editing Here */
 	
-Add a cron job on frequency which will be useful. If yours is critical, run this every 1 minute.
+Add a cron job on frequency which will be useful. If yours is critical, I suggest you run this every 1 minute.
 CLI version is provided however due to PHP memory management issues, it is not perfect.
 
