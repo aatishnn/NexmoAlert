@@ -34,6 +34,9 @@ if (!is_resource($connection)) {
 else {
 	echo "Server Up\n";
 	fclose($connection);
+	if(file_exists($logfile)){
+	unlink($logfile);
+	}
 }
 function checkstatus(){
 	if(file_exists($logfile)){
