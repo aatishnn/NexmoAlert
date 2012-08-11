@@ -1,4 +1,4 @@
-NexmoAlert is based on wonderful SMS API by Nemxo.It aims to provide a simple notification system based on this.
+NexmoAlert is based on wonderful SMS API by Nemxo. It aims to provide a simple notification system based on this.
 
 How to Use:
 Edit these values:
@@ -16,4 +16,6 @@ Edit these values:
 	
 Add a cron job on frequency which will be useful. If yours is critical, I suggest you run this every 1 minute.
 CLI version is provided however due to PHP memory management issues, it is not perfect.
+
+This project was one of my projects when I first started using PHP. This should be considered abandoned.
 
